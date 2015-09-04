@@ -7,9 +7,9 @@
   ],
   "description": "a barebone template for ReactJS with Bootsrap",
   "keywords": [
-    "vallalar",
-    "arutpa"
+
   ],
+
   "license": "CodeWrox",
   "ignore": [
     "**/.*",
@@ -21,16 +21,18 @@
     "index.html",
     "/js"
   ],
+
   "dependencies": {
     "bootstrap": "~3.3.1",
-    "bootstrap-social": "~4.8.0",
-    "react": "~0.13.3"
+    "bootstrap-social": "~4.8.0"
   },
+
   "devDependencies": {
 
   },
-  "appPath": "app",
-  "moduleName": "mediawebApp",
+
+  "appPath": "www",
+  "moduleName": "react-mod",
   "overrides": {
     "bootstrap": {
       "main": [

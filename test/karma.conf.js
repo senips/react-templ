@@ -24,7 +24,6 @@ module.exports = function(config) {
       // bower:js
       'bower_components/jquery/dist/jquery.js',
       'bower_components/bootstrap/dist/js/bootstrap.js',
-      'bower_components/react/react.js',
       // endbower
       "app/scripts/**/*.js",
       "test/mock/**/*.js",
@@ -47,7 +46,7 @@ module.exports = function(config) {
     // - PhantomJS
     // - IE (only Windows)
     browsers: [
-      "PhantomJS", "Chrome"
+      "PhantomJS" 
     ],
 
     // Which plugins to enable
