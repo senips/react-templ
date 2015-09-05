@@ -31,7 +31,7 @@
 
   },
 
-  "appPath": "www",
+  "appPath": "app",
   "moduleName": "react-mod",
   "overrides": {
     "bootstrap": {

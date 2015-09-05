@@ -85,8 +85,8 @@ module.exports = function (grunt) {
                 connect.static('./bower_components')
               ),
               connect().use(
-                '/www/styles',
-                connect.static('./www/styles')
+                '/app/styles',
+                connect.static('./app/styles')
               ),
               connect.static(appConfig.app)
             ];
@@ -122,7 +122,7 @@ module.exports = function (grunt) {
           paths: [""]
         },
         files: {
-          "www/styles/app.css": "less/example.less"
+          "app/styles/app.css": "less/example.less"
         }
       }
 
