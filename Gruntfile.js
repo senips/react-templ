@@ -122,7 +122,7 @@ module.exports = function (grunt) {
           paths: [""]
         },
         files: {
-          "app/styles/app.css": "less/example.less"
+          "app/styles/app.css": "less/admin.less"
         }
       }
 
